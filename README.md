@@ -40,12 +40,7 @@ function Car(name, model, price) {
 "Car Is Running Now"
 ```
 
-### Exercise 1: [Exercise Title]
-
-## Requirements
-
-
-**Solution:** [ex](./exercises/exercise_1/solution.py)
+**Solution:** [Assignment.js](./assignment)
 
 ---
 
@@ -75,6 +70,7 @@ python test_solution.py
 ```
 
 ![Static Badge]([https://img.shields.io/badge/:badgeContent](https://img.shields.io/badge/just%20the%20message-8A2BE2))
+
 
 
 
