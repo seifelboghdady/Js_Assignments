@@ -9,57 +9,40 @@ This repository contains my solutions to exercises from the Zero platform.
 - Tests (if any) are in `test_solution.[ext]`
 
 ## 📚 Exercises
-
-### Exercise 1: [Exercise Title]
-**Question:** Here’s your assignment written in **clean, professional Markdown** (only English):
-
-````markdown
 # Assignment 01
+You have the following Constructor Function and are required to convert it to Class Syntax.  
+Do not rely on the program; do it yourself to ensure you know the Syntax.
+## Requirements:
+1. Add two methods:
+   - One named `run`
+   - One named `stop`
+     
+   Each method should contain a message:  
+   - The first: `"Car Is Running Now"`  
+   - The second: `"Car Is Stopped"`
 
-You are given the following **Constructor Function**, and the task is to convert it into **Class Syntax**.
+2. Create three cars using this Class with any data you choose.
+3. Print the data of the first car in the Console using the method shown below.
+4. On the next line, print the method named `run`.
 
+### Original Constructor Function:
 ```javascript
 function Car(name, model, price) {
   this.n = name;
   this.m = model;
   this.p = price;
 }
-````
+```
 
----
-
-## Requirements
-
-1. Convert the `Car` constructor into a **Class**.
-
-2. Add **two methods** inside the class:
-
-   * `run()` → prints `"Car Is Running Now"`.
-   * `stop()` → prints `"Car Is Stopped"`.
-
-3. Create **three cars** using this class (with any data you choose).
-
-4. Print the data of the **first car** in the following format:
-
-   ```
-   "Car One Name Is MG And Model Is 2022 And Price Is 420000"
-   ```
-
-5. In the **next line**, print the result of calling the method `run()`.
-
----
-
-## Expected Output
-
+### Expected Output:
 ```
 "Car One Name Is MG And Model Is 2022 And Price Is 420000"
 "Car Is Running Now"
 ```
 
-```
+### Exercise 1: [Exercise Title]
 
-Do you want me to also **write the full class implementation in JavaScript** (with the 3 cars and output), or just keep it as instructions in Markdown?
-```
+## Requirements
 
 
 **Solution:** [ex](./exercises/exercise_1/solution.py)
