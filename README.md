@@ -44,9 +44,58 @@ function Car(name, model, price) {
 
 ---
 
-### Exercise 2: [Exercise Title] 
-**Question:** [Paste the exercise question here]
+# Assignment 02
 
+We have the following Class named `Phone`.  
+We need to create another Class named `Tablet` that inherits from the `Phone` Class.
+
+## Requirements:
+- The `Tablet` Class should have an additional property: `size`
+- It should also contain a method named `fullDetails`
+- We used the `Tablet` Class to create multiple tablets
+- We then used the `fullDetails` method to print data about the tablet
+- Your task is to create the `Tablet` Class to display the data as shown below
+- If the user doesn't provide a `size`, it should display "Unknown"
+
+### Original Class:
+```javascript
+class Phone {
+  constructor(name, serial, price) {
+    this.name = name;
+    this.serial = serial;
+    this.price = price;
+  }
+}
+```
+
+### Test Code:
+```javascript
+// Write Tablet Class Here
+
+let TabletOne = new Tablet("iPad", 100200300, 1500, 12.9);
+let TabletTwo = new Tablet("Nokia", 350450650, 800, 10.5);
+let TabletThree = new Tablet("LG", 250450650, 650);
+
+console.log(`${TabletOne.fullDetails()}`);
+// iPad Serial is 100200300 And Size Is 12.9
+
+console.log(`${TabletTwo.fullDetails()}`);
+// Nokia Serial is 350450650 And Size Is 10.5
+
+console.log(`${TabletThree.fullDetails()}`);
+// LG Serial is 250450650 And Size Is Unknown
+```
+
+### Expected Output:
+```
+iPad Serial is 100200300 And Size Is 12.9
+Nokia Serial is 350450650 And Size Is 10.5
+LG Serial is 250450650 And Size Is Unknown
+```
+
+---
+
+**Note:** Create the `Tablet` Class to achieve the expected output.
 **Solution:** [exercises/exercise_2/solution.js](./exercises/exercise_2/solution.js)
 
 ---
@@ -70,6 +119,7 @@ python test_solution.py
 ```
 
 ![Static Badge]([https://img.shields.io/badge/:badgeContent](https://img.shields.io/badge/just%20the%20message-8A2BE2))
+
 
 
 
