@@ -1,4 +1,4 @@
-![Node.js Logo](https://elzero.org/wp-content/themes/elzero/imgs/logo.png)
+![Node.js Logo](https://camo.githubusercontent.com/08c3af511bac45a39004c14d832c11eefd5e8c2ed169047053fff96422a1956a/68747470733a2f2f656c7a65726f2e6f72672f6a732e706e67)
  # ElZero Platform Exercises
 
 This repository contains my solutions to exercises from the Zero platform.
@@ -120,6 +120,7 @@ python test_solution.py
 ```
 
 ![Static Badge]([https://img.shields.io/badge/:badgeContent](https://img.shields.io/badge/just%20the%20message-8A2BE2))
+
 
 
 
