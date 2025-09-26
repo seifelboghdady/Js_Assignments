@@ -94,7 +94,6 @@ Nokia Serial is 350450650 And Size Is 10.5
 LG Serial is 250450650 And Size Is Unknown
 ```
 
----
 
 **Note:** Create the `Tablet` Class to achieve the expected output.
 
@@ -102,8 +101,63 @@ LG Serial is 250450650 And Size Is Unknown
 
 ---
 
-### Exercise 3: [Exercise Title]
-**Question:** [Paste the exercise question here]
+# Assignment 03
+
+We have the following Class named `User`.  
+We need to modify it as required to achieve the functionality described below.
+
+## Requirements:
+1. Prevent direct access to the `card` property
+2. When creating users, you'll notice each person wrote the Card Number differently
+3. We need all numbers to be formatted as a String with a `-` after every 4 digits, as shown in the Output
+4. You cannot modify the user creation lines or the console.log statements
+
+### Original Class:
+```javascript
+// Edit The Class
+class User {
+  constructor(username, card) {
+    this.u = username;
+    this.c = card;
+  }
+}
+```
+
+### Test Code (Do Not Edit):
+```javascript
+// Do Not Edit Anything Below
+
+let userOne = new User("Osama", "1234-5678-1234-5678");
+let userTwo = new User("Ahmed", "1234567812345678");
+let userThree = new User("Ghareeb", 1234567812345678);
+
+console.log(userOne.showData);
+// Hello Osama Your Credit Card Number Is 1234-5678-1234-5678
+
+console.log(userTwo.showData);
+// Hello Ahmed Your Credit Card Number Is 1234-5678-1234-5678
+
+console.log(userThree.showData);
+// Hello Ghareeb Your Credit Card Number Is 1234-5678-1234-5678
+
+console.log(userOne.c); // Prevent Accessing To Card Property Here
+// Undefined
+```
+
+### Expected Output:
+```
+Hello Osama Your Credit Card Number Is 1234-5678-1234-5678
+Hello Ahmed Your Credit Card Number Is 1234-5678-1234-5678
+Hello Ghareeb Your Credit Card Number Is 1234-5678-1234-5678
+Undefined
+```
+
+### Hints:
+- You can use Getters to make a method behave like a property
+- You can use Regular Expressions to format the number as a Credit Card
+---
+
+**Note:** Modify the `User` Class to achieve the expected functionality without changing the test code.
 
 **Solution:** [exercises/exercise_3/solution.java](./exercises/exercise_3/solution.java)
 
