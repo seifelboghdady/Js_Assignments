@@ -97,7 +97,8 @@ LG Serial is 250450650 And Size Is Unknown
 ---
 
 **Note:** Create the `Tablet` Class to achieve the expected output.
-**Solution:** [exercises/exercise_2/solution.js](./exercises/exercise_2/solution.js)
+
+**Solution:** [assignment02.js](./assignment02.js)
 
 ---
 
