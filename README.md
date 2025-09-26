@@ -1,4 +1,5 @@
-﻿# Zero Platform Exercises
+![Node.js Logo](https://upload.wikimedia.org/wikipedia/commons/d/d9/Node.js_logo.svg)
+ # ElZero Platform Exercises
 
 This repository contains my solutions to exercises from the Zero platform.
 
@@ -119,6 +120,7 @@ python test_solution.py
 ```
 
 ![Static Badge]([https://img.shields.io/badge/:badgeContent](https://img.shields.io/badge/just%20the%20message-8A2BE2))
+
 
 
 
