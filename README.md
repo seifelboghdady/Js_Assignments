@@ -155,11 +155,10 @@ Undefined
 ### Hints:
 - You can use Getters to make a method behave like a property
 - You can use Regular Expressions to format the number as a Credit Card
----
 
 **Note:** Modify the `User` Class to achieve the expected functionality without changing the test code.
-
-**Solution:** [exercises/exercise_3/solution.java](./exercises/exercise_3/solution.java)
+---
+**Solution:** [assignment03](./assignment03.js)
 
 ## 🚀 How to Run
 
@@ -174,8 +173,11 @@ python solution.py
 python test_solution.py
 ```
 
-![Static Badge]([https://img.shields.io/badge/:badgeContent](https://img.shields.io/badge/just%20the%20message-8A2BE2))
+---
+## Connect with me
 
+[![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?logo=Facebook&logoColor=white)](https://www.facebook.com/SeifElboghdady13)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230A66C2.svg?logo=linkedin&logoColor=white)](http://www.linkedin.com/in/seif-elboghdady-5554652a3)
 
 
 
